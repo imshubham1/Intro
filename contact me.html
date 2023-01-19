@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/styles.css"> <!--External CSS-->
+</head>
+<body>
+    <h1>My Contact Details</h1>
+    <p>My fictional Address</p>
+    <p>7015097123</p>
+    <p>shubhamgupta07003@gmail.com</p>
+<table cellspacing="5">
+    <form action="mailto:shubhamgupta07003@gmail.com" method="post" enctype="text/plain">
+        <!--action here is used when clicking the submit button where you want to teleport-->
+        <!-- method = post means after going to mail you have to post this msg to that mail-->
+        <!-- encodingtype here means it should not show symbols in body of the email instead will show the plain text there-->
+        <tr>
+            <td><label for="Name"> <!-- label is key point in forms and is used to name the columns in form-->
+            Enter your Name:
+        </label>
+        </td>
+        <td>
+        <input type="text" name="your name"> <!-- input is 2nd key point in forms most used to define keywords that what type of box you want to create in an form where it would be an email, a file, a radio symbol,a password,date, to attach the files, a checkbox, a submit or a reset button    and name in input type is neccesary for this type of message in email body
+          
+            your name=sgyh
+            your email=sj@jm.com
+            your Message=dhdh
+            Yes=on
+            
+            Sent from Mail for Windows
+            -->
+        </td>
+        </tr>
+        <input type="color" name="" id=""><!--color input type stands for which color of form you want it shows a color pallete-->
+        
+        <tr><td>
+        <label>Enter your Email:</label></td>
+        <td>
+        <input type="email" name="your email" id="email" required></td></tr><br> <!-- required means the feild is required to submit the form otherwise the form will not be submitted-->
+
+        <tr><td><label>Password:</label></td><td>
+       <input type="password" required><br></td></tr>
+       <tr><td><label>Date:</label></td>
+       <td><input type="date" name="" id="date"></td><br></tr>
+       <tr><td><label for="file">Attach an image:</label></td>
+        <td><input type="file" name="" id="file" disabled></td></tr>
+    <tr>
+        <td>
+            <label for="">Your Message</label>
+        </td><td>
+            <textarea name="your Message" id="" cols="30" rows="10"></textarea> <!--textarea is used when you want to create a stretchable area for the user's problem he's facing-->
+        </td>
+    </tr></table>
+     
+       <label>I agree all the details feild above are correct</label>
+       <input type="checkbox" name="Yes" id="" required>
+       <label>Mark here!</label><br>
+<table cellpadding="20"> <!-- padding means how much you want to leave the space outside the workarea or table cell/data-->
+    <tr><td>
+        <input type="submit" name="" id="submit"></td>
+       <td> <input type="reset" name="" id="reset"></td></tr><hr>
+    </table>
+    </form>
+    
+</body>
+</html>

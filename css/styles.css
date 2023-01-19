@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514e;
+}
+h1{
+    font-family:'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    color: #66bfbf;
+   
+
+}
+h2{
+    font-family:'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66bfbf;
+    font-weight: normal;
+    text-align: center;
+}
+
+h3{
+    font-family:'Montserrat', sans-serif;
+    color: #11999e;
+    
+}
+p{
+    line-height: 2;
+}
+a{
+    font-family:'Montserrat', sans-serif;
+    color: #0b6063;
+    margin: 20px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: blanchedalmond;
+}
+.top-container {  
+    position: relative;
+    background-color: #E4f9F5;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.middle-container{
+    margin: 100px auto 100px auto;
+}
+.bottom-container{
+    background-color: #11999e;
+    padding-top: 25px ;
+    padding-bottom: 15px;
+}
+.mypic{
+    padding-top: 30px;
+    height: 200px;
+}
+.contact-msg{
+    width: 40%;
+    margin: 40px auto 60px auto;
+    color: #40514e;
+    
+}
+
+
+
+/* span{
+    font:  1.8em "Fira Sans";
+} */
+
+.bottom-cloud{
+    position: relative;
+}
+.top-cloud{
+    position: relative;
+    left: 250px;;
+}
+.mountain{
+   
+    padding-bottom: 30px;
+}
+.computer{
+   border-radius: 100%;
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+.name{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.cs{
+   height: 150px;
+    width: 30%;
+    border-radius: 100%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-me{
+    background-color: white ;
+   
+}
+
+
+.skill-row{
+    width: 70%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+
+}
+
+.myskill{
+  font-family:  'algerian',serif;
+}
+
+.profile{
+    padding-bottom: 20px;
+    text-decoration: bold;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+hr{     background-color: white;
+        border-bottom: none;
+        border-top-style: dotted;
+        border-color: lightgrey;
+        border-width: 6px;
+       margin: 100px auto 100px auto;
+       width: 5%;
+}
+.btn {
+	background-color: #11999e;
+	border-radius:8px;
+	border:1px solid  #11999e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px  #0a5659;
+}
+.btn:hover {
+	background-color:#0bf1d7;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+    
